@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+}
+
+/* Section size hierarchy */
+.section-large {
+    padding: 120px 20px 70px;
+}
+
+.section-medium {
+    padding: 70px 20px;
+}
+
+.section-small {
+    padding: 50px 20px;
+}
+
+/* Common section formatting */
+.section h2,
+.section p,
+.bike-points {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text spacing */
+.section h2 {
+    margin-bottom: 14px;
+}
+
+.section p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Bullet points */
+.bike-points {
+    margin-bottom: 20px;
+}
+
+/* Images */
+.section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
